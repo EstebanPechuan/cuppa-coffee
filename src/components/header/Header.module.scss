@@ -1,0 +1,117 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--clr-white);
+    filter: drop-shadow(0 2px 2px #0004);
+}
+
+.header_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    height: fit-content;
+    color: var(--clr-pry);
+    font-weight: bold;
+    background-color: var(--clr-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav_menu {
+    background-color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.languages {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 100;
+}
+
+.active_flag {
+    position: relative;
+}
+
+.active_flag img {
+    width: 40px;
+    box-sizing: content-box;
+    padding: 5px 0;
+}
+
+.submenu_flag {
+    position: absolute;
+    /* bottom: -45px; */
+    // display: none;
+}
+
+.open_menu {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+  
+  @media screen and (min-width: 768px) {  
+    header {
+        filter: drop-shadow(0 2px 2px #0000);
+        box-shadow: 0 2px 2px #0004;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: 0px;
+        position: absolute;
+        left: 0;
+        top: 90px;
+        transition: 0.4s;
+        pointer-events: none;
+        border-radius: 0 0 8px 8px;
+        overflow: hidden;
+    }
+    
+    .nav_menu {
+        display: none;
+        padding: 20px 0;
+        opacity: 0;
+        transition: 0.4s;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .languages {
+        order: -1;
+    }
+    
+    .open_menu {
+        display: flex;
+    }
+    
+    header.responsive_menu nav {
+        height: 250px;
+        pointer-events: initial;
+    }
+  
+    header.responsive_menu .nav_menu {
+        opacity: 1;
+        transition-delay: 0.1s;
+    }
+  }

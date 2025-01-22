@@ -1,0 +1,123 @@
+{
+    "translation":{
+        "Header": {
+            "Home": "Home",
+            "About_us": "About Us",
+            "Contact": "Contact",
+            "Portal": "Café Portal",
+            "Demo": "Book a Live Demo"
+        },
+        "Home": {
+            "Hero": {
+                "Title": "Coming Soon",
+                "Subtitle": "To your fingertips on Android and iOS.",
+                "Paragraph": "We are gearing up to make a splash in your coffee experience. Stay tuned for an app that goes beyond the beans, creating a vibrant community and connecting you to the soul of your favorite local coffee shops.",
+                "Coming_days": "Days",
+                "Coming_hours": "Hours",
+                "Coming_minutes": "Minutes",
+                "Coming_seconds": "Seconds"
+            },
+            "About": {
+                "Title": {
+                    "1": "Here at Cuppa, we're not just brewing coffee;",
+                    "2": "we're crafting connections."},
+                "Subtitle": {
+                    "1": "Cuppa is your passport to a vibrant community of coffee enthusiasts, connecting you with the best local Canadian cafes.",
+                    "2": "With a personalized QR passport and a sprinkle of gamified excitement, Cuppa goes beyond being just a coffee app—it's an invitation to explore, experience, and savor every sip in a lively community with every sip telling a fresh story."
+                },
+                "Layout1": {
+                    "Title": "Our Cuppa Club Members should be excited to swing by yourcafe shop.",
+                    "Description": "Boost in-shop vibes by welcoming new customers through the Cuppa app.",
+                    "Strong": "It's a fantastic way to connect with a fresh wave of coffee lovers!"
+                },
+                "Layout2": {
+                    "Title": "No Cost to Coffee Shops",
+                    "Description": "Coffee shops can join the Cuppa platform without incurring fees. Cuppa's collaboration model aims to bring together passionate and dedicated local coffee shops without charging them.",
+                    "Strong": ""
+                },
+                "Layout3": {
+                    "Title": "Support  Local Coffe Shops!",
+                    "Description": "Cuppa addresses the issue of people favoring large corporate coffee shops over local ones. Its goal is to redirect traffic towards exploring the fantastic vibes and cozy atmospheres of our local Canadian cafes.",
+                    "Strong": ""
+                },
+                "Discover": {
+                    "Title": "Discover Cuppa",
+                    "Subtitle": "Explore, Connect and Enjoy",
+                    "Paragraph": "Cuppa introduces a revolutionary app designed to change the way you enjoy coffee. Our platform offers you a unique experience, combining convenience, community and rewards. Discover the features that make Cuppa the perfect choice for coffee lovers:"
+                },
+                "Features": {
+                    "Title": "Discover Cuppa",
+                    "List": {
+                        "1": "15% default tipping on all oders",
+                        "2": "Geo-ordering to “hold” orders untli customers are nearby",
+                        "3": "Digital stamp cards to boost customer loyalty.",
+                        "4": "Inventory management to easily place items out of stock",
+                        "5": "Customizable marketing and offers",
+                        "6": "Pos integrations to eliminate additional devices",
+                        "7": "Express checkout with Apple Play. PayPal and Google Plany",
+                        "8": "Dynamic prep times especific to your items and coffee shop"
+                    }
+                },
+                "Download": {
+                    "Title": "Download Cuppa",
+                    "Description": "Increase your visibility, connect with new customers and offer exclusive offers. Download the app and be part of the local coffee experience."
+                }
+            }
+
+        },
+        "About_Us": {
+            "Title": "About Us",
+            "Mission": {
+                "Title": "Our Mission",
+                "Description": "From a passion for coffee to excellence in technology and marketing, at Innovaciones MF we believe in the power of diversity and community to drive success. Our goal is to offer innovative solutions that strengthen and connect local businesses."
+            },
+            "Trip": {
+                "Title": "Our Trip",
+                "Description": "We began our journey with a shared belief in the power of community and a strong commitment to supporting local businesses. As we have faced challenges, we have evolved and strengthened our team, each member contributing their experience and passion to our talent mix."
+            },
+            "Team": {
+                "Title": "Our Team",
+                "Description": "From coffee enthusiasts to tech wizards to community builders, each Cuppa team member brings a unique and valuable perspective. We believe that our diversity is our greatest strength and is reflected in all aspects of our work.",
+                "Gerard": {
+                    "Name": "Gerard Manos",
+                    "Ocupation": "Co - Founder / Marketing"
+                },
+                "Pedro": {
+                    "Name": "Pedro Fernandes",
+                    "Ocupation": "Co - Founder / Sales"
+                },
+                "Lucas": {
+                    "Name": "Lucas Casco",
+                    "Ocupation": "Director of Operations"
+                }
+            }
+        },
+        "Contact": {
+            "Title": "Contact",
+            "Subtitle": "Join Cuppa today",
+            "Paragraph": "Complete our contact form and we will arrange a meeting to discuss how you can become part of our network of coffee partners.",
+            "Form": {
+                "Name": "Enter Your Name",
+                "Phone": "Enter Your Phone Number",
+                "Email": "Enter Your Email",
+                "Assunto": "Enter Your Assunto",
+                "Message": "Enter Your Message",
+                "Submit": "Schedule Meeting",
+                "Obligatory": "*Obligatory field",
+                "Empty_field": "You must complete this field"
+            }
+        },
+        "Footer": {
+            "Contacts": {
+                "Title": "CONTACTS",
+                "Photocall": "Photocall - 0000 0000 000",
+                "Email": "E-mail",
+                "Url": "www.mfinnovvations.com"
+            },
+            "Find_us": {
+                "Title": "FIND US",
+                "Adress": "Street 22 (o) - City - Country"
+            }
+        }
+    }
+}

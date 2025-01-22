@@ -1,0 +1,389 @@
+.section__wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.coming__container {
+    background-color: #F5F5F5;
+}
+
+.coming__container .section__wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.coming__text {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.coming__text p {
+    display: none;
+}
+
+.coming__time {
+    width: 100%;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr 2px 1fr 2px 1fr;
+    grid-template-areas:
+        'days line1 hours line2 minutes line3 seconds'
+        'text-days line1 text-hours line2 text-minutes line3 text-seconds'
+    ;
+    place-self: center;
+    place-items: center;
+    gap: 0px;
+}
+
+.coming__days,
+.coming__hours,
+.coming__minutes,
+.coming__seconds {
+    font-size: 60px;
+}
+
+.coming__days {
+    grid-area: days;
+}
+
+.coming__hours {
+    grid-area: hours;
+}
+
+.coming__minutes {
+    grid-area: minutes;
+}
+
+.coming__seconds {
+    grid-area: seconds;
+}
+
+.coming__text__days {
+    grid-area: text-days;
+}
+
+.coming__text__hours {
+    grid-area: text-hours;
+}
+
+.coming__text__minutes {
+    grid-area: text-minutes;
+}
+
+.coming__text__seconds {
+    grid-area: text-seconds;
+}
+
+.coming__line {
+    width: 2px;
+    height: 40%;
+    background-color: var(--clr-pry);
+}
+
+.line__1 {
+    grid-area: line1;
+}
+
+.line__2 {
+    grid-area: line2;
+}
+
+.line__3 {
+    grid-area: line3;
+}
+
+.coming__image {
+    height: 350px;
+    grid-row: span 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.about__model3d {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.about__model3d .layout__text {
+    width: 100%;
+}
+
+.model3d {
+    width: 60%;
+    height: 400px !important;
+    position: sticky;
+    top: 150px;
+}
+
+.about__container__desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.about__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.layout {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.layout__img {
+    width: 100%;
+    order: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.layout__img img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.layout__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cuppa__app {
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cuppa__app__img {
+    display: none;
+}
+
+.cuppa__app__img img {
+    width: 100%;
+}
+
+.cuppa__app__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuppa__app__text p {
+    display: none;
+}
+
+.download__app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.download__app img {
+    width: 100%;
+    max-width: 200px;
+}
+
+
+
+.discover__cuppa {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover__cuppa h4 {
+    color: var(--clr-blue);
+    font-weight: initial;
+    font-family: 'Ubuntu-Medium';
+}
+
+.discover__cuppa p {
+    display: none;
+}
+
+.cuppa__cards {
+    width: 100%;
+    margin: 50px 0;
+    display: grid;
+}
+
+.cuppa__cards img {
+    width: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.cuppa__card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cuppa__card img {
+    width: 80px;
+}
+
+
+.features {
+    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features__list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px 70px;
+}
+
+.features__list li {    
+    position: relative;
+    padding-left: 30px;
+    text-align: start;
+}
+
+.features__list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/img/icons/marker.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .coming__time {
+        color: var(--clr-pry);
+        font-weight: bold;
+    }
+    
+    .coming__container .section__wrapper {
+        grid-template-columns: 60% 40%;
+    }
+
+    .coming__text {
+        text-align: start;
+        place-self: end;
+        font-size: 18px;
+    }
+
+    .coming__text p {
+        display: block;
+    }
+    
+
+    .coming__time {
+        margin-top: 20px;
+        place-self: start center;
+        font-size: 20px;
+        gap: 20px;
+    }
+
+    .coming__days,
+    .coming__hours,
+    .coming__minutes,
+    .coming__seconds {
+        font-size: 80px;
+    }
+
+
+    .coming__image {
+        height: 500px;
+        grid-row: span 2;
+    }
+
+    .features__list {
+            display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .layout__img {
+        width: 60%;
+        order: initial;
+    }
+    
+    .layout__img img {
+        height: 300px;
+        max-width: initial;
+    }
+    
+    .layout__text {
+        width: 40%;
+    }
+
+    section.cuppa__app {
+        width: 100%;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    
+    .cuppa__app__img {
+        display: block;
+        width: 30%;
+    }
+    
+    .cuppa__app__img img {
+        width: 100%;
+    }
+    
+    .cuppa__app__text {
+        width: 70%;
+        max-width: 500px;
+    }
+
+    .cuppa__app__text p {
+        display: block;
+    }
+
+    .discover__cuppa {
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .discover__cuppa h4 {
+        color: var(--clr-pry);
+        font-weight: bold;
+    }
+
+    .discover__cuppa p {
+        display: block;
+    }
+}

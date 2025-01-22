@@ -1,0 +1,89 @@
+.contact__container {
+    align-items: start;
+    gap: 50px;
+}
+
+.contact__text {
+    width: 100%;
+}
+
+.contact__text img {
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto 0;
+}
+
+.contact__container form {
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form__group {
+    position: relative;
+    text-align: start;
+}
+
+.form__group input,
+.form__group textarea {
+    width: 100%;
+    padding: 15px 10px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--clr-blue);
+    background: var(--clr-white);
+}
+
+.form__group label {
+    position: absolute;
+    top: 12.5px;
+    left: 10px;
+    /* transform: translateY(-50%); */
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.form__group input:focus + label,
+.form__group input:not(:placeholder-shown) + label,
+.form__group textarea:focus + label,
+.form__group textarea:not(:placeholder-shown) + label {
+    top: 5px;
+    font-size: 10px;
+}
+
+.input__required,
+.input__error {
+    margin-top: 4px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.input__error {
+    color: #cc0000;
+}
+
+.contact__form input[type="submit"] {
+    background: linear-gradient(270deg, #60B0AA 100%, #287C76 100%);
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact__form textarea {
+    resize: vertical;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .contact__text img {
+        max-width: 400px;
+    }
+
+    .contact__container form {
+        margin-top: 70px;
+    }
+}
