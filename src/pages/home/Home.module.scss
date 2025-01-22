@@ -129,6 +129,7 @@
 }
 
 .about__container__desc {
+    grid-column: 2;
     width: 100%;
     display: flex;
     flex-direction: column;
